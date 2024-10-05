@@ -1,0 +1,348 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:  "Porsche Next", "Arial Narrow", sans-serif;
+
+}
+header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+   border-bottom:  1px solid rgba(99, 87, 87, 0.158) ;
+}
+.header1{
+    margin-left: 85px;
+
+}
+.header1 p{
+    margin-top: 35px;
+    font-family:  "Porsche Next", "Arial Narrow", sans-serif;
+    line-height: 10px;
+    font-weight:100;
+    cursor: pointer;
+
+}
+.header2 img{
+    font-size: 50px;
+    margin-left: 450px;
+    margin-top: 30px;
+    font-family:  "Porsche Next", "Arial Narrow", sans-serif;
+    line-height: 24px;
+    font-weight: 100;
+    cursor: pointer;
+}
+.photo{
+    width: 100%;
+    height: 520px;
+    background-image: url(porsche-normal.jpg);
+    background-size: 100% 520px ;
+    color: white;
+}
+.photo h1{
+    padding-top: 400px;
+    margin-left: 100px;
+    cursor: pointer;
+    font-size: xxx-large;
+}
+.photo h2{
+    margin-left: 100px;
+    cursor: pointer;
+}
+main{
+    width: 100%;
+    height: 125vh;
+}
+.main1{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+}
+.main1 h1{
+    margin-left: 100px;
+    padding-top: 30px;
+}
+.main2{
+    width: 100%;
+    height: 100vh;
+}
+.main3{
+    width: 449px;
+    height: 50vh;
+    background-image: url(porsche-911);
+    background-size: 100% 50vh;
+    float: left;
+
+}
+.main2 h1{
+    margin-left: 20px;
+    margin-top: 20px;
+    color: white;
+}
+.main2 h3   {
+    margin-left: 20px;
+    margin-top: 3px;
+    color: white;
+}
+ .main2 .button1{
+    border-radius: 0px;
+    border-color: white;
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 160px;
+    color:black;
+    cursor: pointer;
+ }
+.main2 button{
+    border-radius: 0px;
+
+    border-color: white;
+    background: none;
+    width: 130px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 160px;
+    color: white;
+    cursor: pointer;
+}
+ .main4{
+    width: 449px;
+    height: 50vh;
+    background-image: url(taycan.webp);
+    background-size: 100% 50vh;
+    float: left;
+ }
+ .main5{
+    width: 449px;
+    height: 50vh;
+    background-image: url(panamera.webp);
+    background-size: 100% 50vh;
+    float: left;
+ }
+ .main6{
+    width: 449px;
+    height: 50vh;
+    background-image: url(macan.webp);
+    background-size: 100% 50vh;
+    float: left;
+ }
+ .main7{
+    width: 449px;
+    height: 50vh;
+    background-image: url(cayyen.webp) ;
+    background-size: 100% 50vh;
+    float: left;
+ }
+ .main8{
+    margin-left: 100px;
+    margin-top: 20px;
+ }
+ .shop{
+    width: 100%;
+    height: 70vh;
+ }
+ .one{
+    width:100%;
+    height: 300px;
+    display: flex;
+    
+ }
+ .two{
+    width: 30%;
+    height: 100%;
+    margin-left: 30px;
+ }
+ .two img{
+    width: 100%;
+    height: 80%;
+ }
+ .two button{
+    border-radius: 0px;
+    border-color:rgb(54, 52, 52);
+    background-color:rgb(54, 52, 52);
+    width: 150px;
+    height: 50px;
+    margin-left: 100px;
+    margin-top: -5px;
+    color:white;
+    cursor: pointer;
+ }
+ .tools{
+    width: 100%;
+    height: 60vh;
+ }
+ .tool1{
+    width: 90%;
+    height: 255px;
+    margin-left: 5%;
+    display: flex;
+ }
+ .tool2{
+    width: 40%;
+    height: 100%;
+    background-color: black;
+ }
+ .tool3{
+    width: 20%;
+    height: 100%;
+    background-color: blue;
+ }
+ .tool1 img{
+    width: 100%;
+    height: 255px;
+    
+ }
+ .tool1 h3{
+    margin-top: -50px;
+    margin-left: 10px;
+    color: white;
+    cursor: pointer;
+ }
+ .social{
+    width: 100%;
+    height: 115vh;
+ }
+ .social1{
+    width: 85%;
+    height: 82vh;
+    margin-left: 7%;
+    display: flex;
+ }
+ .social2{
+    width: 33%;
+    height: 85  vh;
+    
+ }
+ .social3{
+    width: 99%;
+    height: 60%;
+    margin: .5px;
+}
+ .social4{
+    width: 49%;
+    height: 40%;
+    float: left;
+    margin: 1.5px;
+ }
+ .social3 img,video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+
+ }
+ .social4 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+
+ }
+ .social4 video{
+   width: 100%;
+   height: 100%;
+   object-fit:cover;
+   cursor: pointer;
+
+ }
+ .social3 video{
+   width: 100%;
+   height: 100%;
+   object-fit:cover;
+   position: relative;
+   cursor: pointer;
+ }
+ .social5 button{
+   border-radius: 0px;
+   border-color:rgb(54, 52, 52);
+   background-color:rgb(54, 52, 52);
+   width: 150px;
+   height: 50px;
+   margin-right: 120px;
+   margin-top: 30px;
+   color:white;
+   cursor: pointer;
+ }
+ .social5{
+   width: 100%;
+   height: 100px;
+   text-align: right;
+ }
+ article{
+   width: 100%;
+   height: 60vh;
+ }
+ .dis1{
+   width: 85%;
+   height: 65%;
+   margin-left: 7%;
+   display: flex;
+ }
+ .dis2{
+   width: 25%;
+   height: 90%;
+ }
+ .dis2 img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+ }
+ footer{
+   width: 100%;
+   height: 60vh;
+ }
+ .footer1{
+   width: 85%;
+   height: 80%;
+   margin-left: 7%;
+   margin-top: 50px;
+   display: flex;
+   border-top:1px solid #949697;
+}
+.footer2{
+   width: 25%;
+   height: 100%;
+}
+.footer2 h4{
+   margin-top: 20px;
+}
+.footer2 p{
+   margin-top: 20px;
+}
+.footer3{
+   width: 20%;
+   height: 300px;
+   float: right;
+   margin-right: 108px;
+}
+.footer4{
+   border-radius: 0px;
+   border-color:rgb(54, 52, 52);
+   background-color:rgb(54, 52, 52);
+   width: 270px;
+   height: 50px;
+   margin-right: 120px;
+   color:white;
+   cursor: pointer;
+   text-align:center;
+}
+.footer3 h4{
+   margin-top: 50px;
+   color: gray;
+}
+.footer5{
+   margin-top: 10px;
+   border-radius: 0px;
+}
+.footer5 a{
+      color: rgb(31, 31, 31);
+      font-size: xxx-large;
+      margin-left: 10px;
+      margin-top: 10px;
+      }
+   
+      .footer5 a i{
+         border-radius: 0px;
+
+      }
